@@ -4,7 +4,7 @@ import { RouteRecordRaw } from 'vue-router'
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        redirect: '/main'
+        redirect: '/login' //默认登录页
     },
     {
         path: '/main',
